@@ -1,5 +1,5 @@
 name:         periodic_table
-version:      0.1.0
+version:      0.1.1
 author:       Herman Bergwerf <hermanbergwerf@gmail.com>
 description:  The Periodic Table of Elements data as Dart package
 homepage:     https://github.com/bergwerf/periodic-table
