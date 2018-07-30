@@ -1,0 +1,39 @@
+// Copyright (c) 2018, Herman Bergwerf. All rights reserved.
+// Use of this source code is governed by a CC BY-SA 3.0-style license
+// that can be found in the LICENSE file.
+
+// THIS IS AN AUTO-GENERATED FILE, DO NOT MODIFY BY HAND!
+part of periodic_table;
+
+/// Top level variable exported by this package.
+const periodicTable = const [
+  {{#elements}}
+  ChemicalElement(
+      {{! Always present }}
+      name: '{{{name}}}',
+      category: '{{{category}}}',
+      stpPhase: MatterPhase.{{{phase}}},
+      appearance: '{{{appearance}}}',
+      number: {{number}},
+      period: {{period}},
+      row: {{ypos}},
+      column: {{xpos}},
+      shells: [{{shells}}],
+      {{! Sometimes present }}
+      {{# atomic_mass }}
+      atomicMass: {{atomic_mass}},
+      {{/ atomic_mass }}
+      {{# density }}
+      molecularDensity: {{density}},
+      {{/ density }}
+      {{# molar_heat }}
+      heatCapacity: {{molar_heat}},
+      {{/ molar_heat }}
+      {{# melt }}
+      meltingPoint: {{melt}},
+      {{/ melt }}
+      {{# boil }}
+      boilingPoint: {{boil}},
+      {{/ boil }}),
+  {{/elements}}
+];
