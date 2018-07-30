@@ -10,6 +10,7 @@ enum MatterPhase { solid, liquid, gas }
 class ChemicalElement {
   // General identification
   final String name;
+  final String symbol;
   final String category;
   final String appearance;
   final MatterPhase stpPhase;
@@ -33,6 +34,7 @@ class ChemicalElement {
 
   const ChemicalElement(
       {this.name,
+      this.symbol,
       this.category,
       this.appearance,
       this.stpPhase,

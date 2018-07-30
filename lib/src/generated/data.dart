@@ -9,6 +9,7 @@ part of periodic_table;
 const periodicTable = const [
   ChemicalElement(
     name: 'Hydrogen',
+    symbol: 'H',
     category: 'diatomic nonmetal',
     stpPhase: MatterPhase.gas,
     appearance: 'colorless gas',
@@ -25,6 +26,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Helium',
+    symbol: 'He',
     category: 'noble gas',
     stpPhase: MatterPhase.gas,
     appearance:
@@ -41,6 +43,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Lithium',
+    symbol: 'Li',
     category: 'alkali metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery-white',
@@ -57,6 +60,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Beryllium',
+    symbol: 'Be',
     category: 'alkaline earth metal',
     stpPhase: MatterPhase.solid,
     appearance: 'white-gray metallic',
@@ -73,6 +77,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Boron',
+    symbol: 'B',
     category: 'metalloid',
     stpPhase: MatterPhase.solid,
     appearance: 'black-brown',
@@ -89,6 +94,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Carbon',
+    symbol: 'C',
     category: 'polyatomic nonmetal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -103,6 +109,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Nitrogen',
+    symbol: 'N',
     category: 'diatomic nonmetal',
     stpPhase: MatterPhase.gas,
     appearance: 'colorless gas, liquid or solid',
@@ -118,6 +125,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Oxygen',
+    symbol: 'O',
     category: 'diatomic nonmetal',
     stpPhase: MatterPhase.gas,
     appearance: '',
@@ -133,6 +141,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Fluorine',
+    symbol: 'F',
     category: 'diatomic nonmetal',
     stpPhase: MatterPhase.gas,
     appearance: '',
@@ -148,6 +157,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Neon',
+    symbol: 'Ne',
     category: 'noble gas',
     stpPhase: MatterPhase.gas,
     appearance:
@@ -164,6 +174,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Sodium',
+    symbol: 'Na',
     category: 'alkali metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white metallic',
@@ -180,6 +191,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Magnesium',
+    symbol: 'Mg',
     category: 'alkaline earth metal',
     stpPhase: MatterPhase.solid,
     appearance: 'shiny grey solid',
@@ -196,6 +208,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Aluminium',
+    symbol: 'Al',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery gray metallic',
@@ -212,6 +225,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Silicon',
+    symbol: 'Si',
     category: 'metalloid',
     stpPhase: MatterPhase.solid,
     appearance: 'crystalline, reflective with bluish-tinged faces',
@@ -228,6 +242,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Phosphorus',
+    symbol: 'P',
     category: 'polyatomic nonmetal',
     stpPhase: MatterPhase.solid,
     appearance: 'colourless, waxy white, yellow, scarlet, red, violet, black',
@@ -242,6 +257,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Sulfur',
+    symbol: 'S',
     category: 'polyatomic nonmetal',
     stpPhase: MatterPhase.solid,
     appearance: 'lemon yellow sintered microcrystals',
@@ -258,6 +274,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Chlorine',
+    symbol: 'Cl',
     category: 'diatomic nonmetal',
     stpPhase: MatterPhase.gas,
     appearance: 'pale yellow-green gas',
@@ -273,6 +290,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Argon',
+    symbol: 'Ar',
     category: 'noble gas',
     stpPhase: MatterPhase.gas,
     appearance:
@@ -289,6 +307,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Potassium',
+    symbol: 'K',
     category: 'alkali metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery gray',
@@ -305,6 +324,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Calcium',
+    symbol: 'Ca',
     category: 'alkaline earth metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -321,6 +341,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Scandium',
+    symbol: 'Sc',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -337,6 +358,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Titanium',
+    symbol: 'Ti',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery grey-white metallic',
@@ -353,6 +375,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Vanadium',
+    symbol: 'V',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'blue-silver-grey metal',
@@ -369,6 +392,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Chromium',
+    symbol: 'Cr',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery metallic',
@@ -385,6 +409,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Manganese',
+    symbol: 'Mn',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery metallic',
@@ -401,6 +426,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Iron',
+    symbol: 'Fe',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'lustrous metallic with a grayish tinge',
@@ -417,6 +443,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Cobalt',
+    symbol: 'Co',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'hard lustrous gray metal',
@@ -433,6 +460,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Nickel',
+    symbol: 'Ni',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'lustrous, metallic, and silver with a gold tinge',
@@ -449,6 +477,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Copper',
+    symbol: 'Cu',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'red-orange metallic luster',
@@ -465,6 +494,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Zinc',
+    symbol: 'Zn',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silver-gray',
@@ -481,6 +511,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Gallium',
+    symbol: 'Ga',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silver-white',
@@ -497,6 +528,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Germanium',
+    symbol: 'Ge',
     category: 'metalloid',
     stpPhase: MatterPhase.solid,
     appearance: 'grayish-white',
@@ -513,6 +545,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Arsenic',
+    symbol: 'As',
     category: 'metalloid',
     stpPhase: MatterPhase.solid,
     appearance: 'metallic grey',
@@ -527,6 +560,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Selenium',
+    symbol: 'Se',
     category: 'polyatomic nonmetal',
     stpPhase: MatterPhase.solid,
     appearance: 'black, red, and gray (not pictured) allotropes',
@@ -543,6 +577,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Bromine',
+    symbol: 'Br',
     category: 'diatomic nonmetal',
     stpPhase: MatterPhase.liquid,
     appearance: '',
@@ -558,6 +593,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Krypton',
+    symbol: 'Kr',
     category: 'noble gas',
     stpPhase: MatterPhase.gas,
     appearance:
@@ -574,6 +610,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Rubidium',
+    symbol: 'Rb',
     category: 'alkali metal',
     stpPhase: MatterPhase.solid,
     appearance: 'grey white',
@@ -590,6 +627,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Strontium',
+    symbol: 'Sr',
     category: 'alkaline earth metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -606,6 +644,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Yttrium',
+    symbol: 'Y',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -622,6 +661,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Zirconium',
+    symbol: 'Zr',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -638,6 +678,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Niobium',
+    symbol: 'Nb',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'gray metallic, bluish when oxidized',
@@ -654,6 +695,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Molybdenum',
+    symbol: 'Mo',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'gray metallic',
@@ -670,6 +712,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Technetium',
+    symbol: 'Tc',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'shiny gray metal',
@@ -686,6 +729,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Ruthenium',
+    symbol: 'Ru',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white metallic',
@@ -702,6 +746,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Rhodium',
+    symbol: 'Rh',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white metallic',
@@ -718,6 +763,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Palladium',
+    symbol: 'Pd',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -734,6 +780,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Silver',
+    symbol: 'Ag',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'lustrous white metal',
@@ -750,6 +797,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Cadmium',
+    symbol: 'Cd',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery bluish-gray metallic',
@@ -766,6 +814,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Indium',
+    symbol: 'In',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery lustrous gray',
@@ -782,6 +831,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Tin',
+    symbol: 'Sn',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery-white (beta, β) or gray (alpha, α)',
@@ -798,6 +848,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Antimony',
+    symbol: 'Sb',
     category: 'metalloid',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery lustrous gray',
@@ -814,6 +865,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Tellurium',
+    symbol: 'Te',
     category: 'metalloid',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -830,6 +882,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Iodine',
+    symbol: 'I',
     category: 'diatomic nonmetal',
     stpPhase: MatterPhase.solid,
     appearance: 'lustrous metallic gray, violet as a gas',
@@ -845,6 +898,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Xenon',
+    symbol: 'Xe',
     category: 'noble gas',
     stpPhase: MatterPhase.gas,
     appearance:
@@ -861,6 +915,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Cesium',
+    symbol: 'Cs',
     category: 'alkali metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery gold',
@@ -877,6 +932,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Barium',
+    symbol: 'Ba',
     category: 'alkaline earth metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -893,6 +949,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Lanthanum',
+    symbol: 'La',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -909,6 +966,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Cerium',
+    symbol: 'Ce',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -925,6 +983,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Praseodymium',
+    symbol: 'Pr',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'grayish white',
@@ -941,6 +1000,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Neodymium',
+    symbol: 'Nd',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -957,6 +1017,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Promethium',
+    symbol: 'Pm',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'metallic',
@@ -972,6 +1033,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Samarium',
+    symbol: 'Sm',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -988,6 +1050,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Europium',
+    symbol: 'Eu',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1004,6 +1067,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Gadolinium',
+    symbol: 'Gd',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1020,6 +1084,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Terbium',
+    symbol: 'Tb',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1036,6 +1101,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Dysprosium',
+    symbol: 'Dy',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1052,6 +1118,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Holmium',
+    symbol: 'Ho',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1068,6 +1135,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Erbium',
+    symbol: 'Er',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1084,6 +1152,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Thulium',
+    symbol: 'Tm',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery gray',
@@ -1100,6 +1169,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Ytterbium',
+    symbol: 'Yb',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1116,6 +1186,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Lutetium',
+    symbol: 'Lu',
     category: 'lanthanide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1132,6 +1203,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Hafnium',
+    symbol: 'Hf',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'steel gray',
@@ -1148,6 +1220,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Tantalum',
+    symbol: 'Ta',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'gray blue',
@@ -1164,6 +1237,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Tungsten',
+    symbol: 'W',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'grayish white, lustrous',
@@ -1180,6 +1254,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Rhenium',
+    symbol: 'Re',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery-grayish',
@@ -1196,6 +1271,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Osmium',
+    symbol: 'Os',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery, blue cast',
@@ -1212,6 +1288,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Iridium',
+    symbol: 'Ir',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1228,6 +1305,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Platinum',
+    symbol: 'Pt',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1244,6 +1322,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Gold',
+    symbol: 'Au',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'metallic yellow',
@@ -1260,6 +1339,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Mercury',
+    symbol: 'Hg',
     category: 'transition metal',
     stpPhase: MatterPhase.liquid,
     appearance: 'silvery',
@@ -1276,6 +1356,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Thallium',
+    symbol: 'Tl',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1292,6 +1373,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Lead',
+    symbol: 'Pb',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'metallic gray',
@@ -1308,6 +1390,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Bismuth',
+    symbol: 'Bi',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'lustrous silver',
@@ -1324,6 +1407,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Polonium',
+    symbol: 'Po',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery',
@@ -1340,6 +1424,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Astatine',
+    symbol: 'At',
     category: 'metalloid',
     stpPhase: MatterPhase.solid,
     appearance: 'unknown, probably metallic',
@@ -1355,6 +1440,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Radon',
+    symbol: 'Rn',
     category: 'noble gas',
     stpPhase: MatterPhase.gas,
     appearance:
@@ -1371,6 +1457,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Francium',
+    symbol: 'Fr',
     category: 'alkali metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1386,6 +1473,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Radium',
+    symbol: 'Ra',
     category: 'alkaline earth metal',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white metallic',
@@ -1401,6 +1489,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Actinium',
+    symbol: 'Ac',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1417,6 +1506,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Thorium',
+    symbol: 'Th',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery, often with black tarnish',
@@ -1433,6 +1523,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Protactinium',
+    symbol: 'Pa',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'bright, silvery metallic luster',
@@ -1448,6 +1539,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Uranium',
+    symbol: 'U',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1464,6 +1556,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Neptunium',
+    symbol: 'Np',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery metallic',
@@ -1480,6 +1573,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Plutonium',
+    symbol: 'Pu',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white, tarnishing to dark gray in air',
@@ -1496,6 +1590,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Americium',
+    symbol: 'Am',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery white',
@@ -1512,6 +1607,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Curium',
+    symbol: 'Cm',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery metallic, glows purple in the dark',
@@ -1527,6 +1623,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Berkelium',
+    symbol: 'Bk',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery',
@@ -1542,6 +1639,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Californium',
+    symbol: 'Cf',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'silvery',
@@ -1557,6 +1655,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Einsteinium',
+    symbol: 'Es',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: 'silver-colored',
@@ -1572,6 +1671,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Fermium',
+    symbol: 'Fm',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1585,6 +1685,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Mendelevium',
+    symbol: 'Md',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1598,6 +1699,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Nobelium',
+    symbol: 'No',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1611,6 +1713,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Lawrencium',
+    symbol: 'Lr',
     category: 'actinide',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1624,6 +1727,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Rutherfordium',
+    symbol: 'Rf',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1639,6 +1743,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Dubnium',
+    symbol: 'Db',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1652,6 +1757,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Seaborgium',
+    symbol: 'Sg',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1665,6 +1771,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Bohrium',
+    symbol: 'Bh',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1678,6 +1785,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Hassium',
+    symbol: 'Hs',
     category: 'transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1692,6 +1800,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Meitnerium',
+    symbol: 'Mt',
     category: 'unknown, probably transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1705,6 +1814,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Darmstadtium',
+    symbol: 'Ds',
     category: 'unknown, probably transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1718,6 +1828,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Roentgenium',
+    symbol: 'Rg',
     category: 'unknown, probably transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1731,6 +1842,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Copernicium',
+    symbol: 'Cn',
     category: 'transition metal',
     stpPhase: MatterPhase.gas,
     appearance: '',
@@ -1745,6 +1857,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Nihonium',
+    symbol: 'Nh',
     category: 'unknown, probably transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1760,6 +1873,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Flerovium',
+    symbol: 'Fl',
     category: 'post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1775,6 +1889,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Moscovium',
+    symbol: 'Mc',
     category: 'unknown, probably post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1790,6 +1905,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Livermorium',
+    symbol: 'Lv',
     category: 'unknown, probably post-transition metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1805,6 +1921,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Tennessine',
+    symbol: 'Ts',
     category: 'unknown, probably metalloid',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1820,6 +1937,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Oganesson',
+    symbol: 'Og',
     category: 'unknown, predicted to be noble gas',
     stpPhase: MatterPhase.solid,
     appearance: '',
@@ -1834,6 +1952,7 @@ const periodicTable = const [
   ),
   ChemicalElement(
     name: 'Ununennium',
+    symbol: 'Uue',
     category: 'unknown, but predicted to be an alkali metal',
     stpPhase: MatterPhase.solid,
     appearance: '',
