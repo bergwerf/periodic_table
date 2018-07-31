@@ -48,4 +48,8 @@ class ChemicalElement {
       this.heatCapacity,
       this.meltingPoint,
       this.boilingPoint});
+
+  /// Currently we have no separate group data. But generally it should be the
+  /// same as the column.
+  int get group => column;
 }
