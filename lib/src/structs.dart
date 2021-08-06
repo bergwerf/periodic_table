@@ -22,10 +22,10 @@ class ChemicalElement {
 
   // Empirical properties
   final num atomicMass;
-  final num molecularDensity;
-  final num heatCapacity;
-  final num meltingPoint;
-  final num boilingPoint;
+  final num? molecularDensity;
+  final num? heatCapacity;
+  final num? meltingPoint;
+  final num? boilingPoint;
 
   /*// Historical properties
   final String discoveredBy;
@@ -33,17 +33,17 @@ class ChemicalElement {
   final String summary;*/
 
   const ChemicalElement(
-      {this.name,
-      this.symbol,
-      this.category,
-      this.appearance,
-      this.stpPhase,
-      this.number,
-      this.period,
-      this.row,
-      this.column,
-      this.shells,
-      this.atomicMass,
+      {required this.name,
+      required this.symbol,
+      required this.category,
+      required this.appearance,
+      required this.stpPhase,
+      required this.number,
+      required this.period,
+      required this.row,
+      required this.column,
+      required this.shells,
+      required this.atomicMass,
       this.molecularDensity,
       this.heatCapacity,
       this.meltingPoint,
